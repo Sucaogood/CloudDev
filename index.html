@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudDev - Desenvolvimento Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-cloud"></i> CloudDev
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>CloudDev – Criamos sites incríveis para destacar o seu negócio na internet</h1>
+            <p>Transforme sua presença online com designs inovadores e tecnológicos.</p>
+            <a href="#contato" class="cta-button">Peça seu site</a>
+        </div>
+        <div class="hero-bg" data-aos="fade-in">
+            <i class="fas fa-cloud"></i>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 data-aos="fade-up">Sobre Nós</h2>
+            <p data-aos="fade-up" data-aos-delay="200">A CloudDev cria sites modernos, rápidos e bonitos, focados em atrair clientes e aumentar vendas. Somos especialistas em soluções web para pequenos negócios, combinando tecnologia de ponta com criatividade para levar seu empreendimento ao futuro.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 data-aos="fade-up">Nossos Serviços</h2>
+            <div class="service-grid">
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-ice-cream"></i>
+                    <h3>Desenvolvimento de sites para sorveterias</h3>
+                    <p>Sites atrativos que destacam sabores e promovem vendas online.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-cut"></i>
+                    <h3>Sites para barbearias</h3>
+                    <p>Designs elegantes para agendamentos e atração de clientes.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Sites para lojas</h3>
+                    <p>E-commerce e vitrines virtuais para impulsionar vendas.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-building"></i>
+                    <h3>Sites institucionais e personalizados</h3>
+                    <p>Soluções sob medida para qualquer tipo de negócio.</p>
+                </div>
+                <div class="service-item" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Design moderno, responsivo e otimizado</h3>
+                    <p>Sites que funcionam perfeitamente em todos os dispositivos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="differentials">
+        <div class="container">
+            <h2 data-aos="fade-up">Nossos Diferenciais</h2>
+            <ul class="diff-list">
+                <li data-aos="fade-left" data-aos-delay="100"><i class="fas fa-palette"></i> Design moderno e profissional</li>
+                <li data-aos="fade-left" data-aos-delay="200"><i class="fas fa-tachometer-alt"></i> Sites rápidos e responsivos</li>
+                <li data-aos="fade-left" data-aos-delay="300"><i class="fas fa-handshake"></i> Atendimento simples e direto</li>
+                <li data-aos="fade-left" data-aos-delay="400"><i class="fas fa-users"></i> Foco em pequenos negócios</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <a href="https://wa.me/5519999643888?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20seus%20serviços!" class="whatsapp-button" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Fale pelo WhatsApp
+                    </a>
+                </div>
+                <form class="contact-form"action="https://getform.io/f/avrzmema"method="POST">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
